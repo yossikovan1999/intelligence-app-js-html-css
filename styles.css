@@ -1,0 +1,148 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #020618;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width : 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #080e22;
+  padding: 1.5rem;
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+header h2 {
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #adadad;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.header-right {
+  display: flex;
+  gap: 1rem;
+}
+
+header button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+
+.form-section{
+  border: 25px;
+  border: #314158 2px solid;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.form-header-container {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  width: 100%; 
+}
+
+.form-header-text {
+}
+
+.form-header-text h1 {
+  font-size: 1.6rem;
+}
+
+.form-header-text h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #818181;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.form-label{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    gap : 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+input{
+    width : 100%;
+    box-sizing: border-box;
+    background-color: #111A2F;
+    border: #45556C 1px solid;
+    border-radius: 5px;
+    padding : 0.7rem;
+}
+
+.input-container{
+    margin : 2rem 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.display-flex {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 0.5rem;
+}
+
+.font-size-1{
+    font-size: 1rem;
+}
+
+
+.font-size-2{
+    font-size: 1.5rem;
+}
+
+textarea{
+    width: 100%;
+}
